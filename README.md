@@ -1,5 +1,7 @@
-- 👋 Hi, I’m @Trision
-- 👀 I’m interested in Security
+- :brazil:
+- 23 Years, Male
+- 👋 Hi, I’m Luiz, from Brazil.
+- 👀 I’m interested in Cyber Security
 - 🌱 I’m currently learning Phyton
 - 📫 How to reach me : #
 
