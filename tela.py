@@ -4,12 +4,11 @@ from tkinter.ttk import Label
 from tkinter import ttk
 import os
 from gcpstorage import StorageGCP
-import tqdm
 
 
 
 janela = tk.Tk()
-gcp = StorageGCP()
+gcp = StorageGCP('')
 
 #configuração da janela
 janela.title("Baixar arquivos")
@@ -19,7 +18,7 @@ janela.iconbitmap('logo.ico')
 janela.configure(bg="#F9FCFE")
 
 #menu e config de tamanho
-carteiras = ('Lendico', 'Consig', 'Hy')
+carteiras = ('arquivo1', 'arquivo2', 'arquivo3')
 cart = tk.StringVar()
 paddings = {'padx': 5, 'pady': 5}
 
@@ -38,10 +37,10 @@ carteira.grid(column=1, row=2, sticky=tk.W, **paddings)
 
 #def para baixar
 def baixar():
-    carteira = cart.get().replace("Hy", "help").replace("Lendico", "lendico").replace("Consig", 'consig')
+    carteira = cart.get().lower() # or .replace("text to be change", "new text")
     cont = text.get().replace(" ", "")
     user = os.getlogin()
-    fonte = ['lendico', 'help', 'consig']
+    fonte = ['arquivo1', 'arquivo2', 'arquivo3']
     for item in fonte:
         if carteira == item:
             fonte = item
@@ -49,7 +48,7 @@ def baixar():
         tipo = 'zip'
     else:
         tipo = 'pdf'
-    PATH = f"C:\\Users\\{user}\\Desktop\\Contratos"
+    PATH = f"C:\\Users\\{user}\\Desktop\\pastaExemplo"
     isExist = os.path.exists(PATH)
     if not isExist:
         print(f"Criando diretório {PATH}")
