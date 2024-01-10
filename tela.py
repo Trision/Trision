@@ -8,7 +8,7 @@ from gcpstorage import StorageGCP
 
 
 janela = tk.Tk()
-gcp = StorageGCP('')
+gcp = StorageGCP()
 
 #configuração da janela
 janela.title("Baixar arquivos")
