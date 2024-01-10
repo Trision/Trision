@@ -44,8 +44,8 @@ def baixar():
     for item in fonte:
         if carteira == item:
             fonte = item
-    if fonte == 'lendico':
-        tipo = 'zip'
+    if fonte == 'arquivo1':
+        tipo = 'zip' #por conta dos arquivos vinculados ao arquivo1 estarem em zip no google cloud
     else:
         tipo = 'pdf'
     PATH = f"C:\\Users\\{user}\\Desktop\\pastaExemplo"
