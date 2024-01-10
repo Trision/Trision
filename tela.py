@@ -47,7 +47,7 @@ def baixar():
     if fonte == 'arquivo1':
         tipo = 'zip' #por conta dos arquivos vinculados ao arquivo1 estarem em zip no google cloud
     else:
-        tipo = 'pdf'
+        tipo = 'pdf' #os arquivos vinculados aos arquivos 2 e 3 estão em pdf
     PATH = f"C:\\Users\\{user}\\Desktop\\pastaExemplo"
     isExist = os.path.exists(PATH)
     if not isExist:
