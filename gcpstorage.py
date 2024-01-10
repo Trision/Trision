@@ -4,8 +4,8 @@ from google.cloud import storage
 class StorageGCP:
     
     def __init__(self):
-        self.bucket_name = "resolve-contas-docs" #
-        self.credentials = "mythical-runner-350501-79f85db1d3dd.json"
+        self.bucket_name = "#" #nome do seu bucket
+        self.credentials = "#" #json das suas credenciais no google cloud
         self.client      = storage.Client.from_service_account_json(self.credentials)
         self.bucket      = self.client.bucket(self.bucket_name)
     
