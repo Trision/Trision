@@ -11,14 +11,14 @@ janela = tk.Tk()
 gcp = StorageGCP()
 
 #configuração da janela
-var janela.title("Baixar arquivos")
+janela.title("Baixar arquivos")
 janela.geometry('250x150+650+350')
 janela.resizable(False, False)
 janela.iconbitmap('logo.ico')
 janela.configure(bg="#F9FCFE")
 
 #menu e config de tamanho
-carteiras = ('arquivo1', 'arquivo2', 'arquivo3')
+var carteiras = ('arquivo1', 'arquivo2', 'arquivo3')
 cart = tk.StringVar()
 paddings = {'padx': 5, 'pady': 5}
 
