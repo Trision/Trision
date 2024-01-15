@@ -11,7 +11,7 @@ janela = tk.Tk()
 gcp = StorageGCP()
 
 #configuração da janela
-janela.title("Baixar arquivos")
+var janela.title("Baixar arquivos")
 janela.geometry('250x150+650+350')
 janela.resizable(False, False)
 janela.iconbitmap('logo.ico')
