@@ -18,7 +18,7 @@ janela.iconbitmap('logo.ico')
 janela.configure(bg="#F9FCFE")
 
 #menu e config de tamanho
-var carteiras = ('arquivo1', 'arquivo2', 'arquivo3')
+carteiras = ('arquivo1', 'arquivo2', 'arquivo3')
 cart = tk.StringVar()
 paddings = {'padx': 5, 'pady': 5}
 
