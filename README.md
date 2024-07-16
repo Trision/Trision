@@ -4,7 +4,17 @@
 
 <br clear="both">
 
-<div align="center">
+<p align="left">Hi, i 'm Luiz Fernando a Back-end Developer</p>
+
+###
+
+<h2 align="left">Technologies</h2>
+
+###
+
+<br clear="both">
+
+<div align="left">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" height="22" alt="javascript logo"  />
   <img width="5" />
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" height="22" alt="python logo"  />
@@ -43,11 +53,19 @@
 
 ###
 
+<h2 align="left">Socials</h2>
+
+###
+
 <br clear="both">
 
-<div align="center">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="19" alt="linkedin logo"  />
-  <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="19" alt="instagram logo"  />
+<div align="left">
+  <a href="https://www.linkedin.com/in/luiz-fernando-dev---/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=black&labelColor=&style=for-the-badge" height="19" alt="linkedin logo"  />
+  </a>
+  <a href="https://www.instagram.com/luizfernandor.f/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=black&labelColor=&style=for-the-badge" height="19" alt="instagram logo"  />
+  </a>
 </div>
 
 ###
