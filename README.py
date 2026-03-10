@@ -1,86 +1,123 @@
-class LuizFernandoRibeiro:
-    def __init__(self):
-        self.name = "Luiz Fernando Ribeiro"
-        self.role = "Back-End Developer"
-        self.language = "pt-BR"
-        self.location = "Brasil"
+# Olá, eu sou Luiz Fernando Ribeiro 👋
 
-        self.about_me = {
-            "experience": "Back-End com experiência em Python, Django, automações e integrações",
-            "focus": [
-                "Desenvolvimento Back-End",
-                "Automação de tarefas",
-                "Integração com APIs",
-                "Manipulação de arquivos e documentos",
-                "Inteligência Artificial",
-                "Cybersegurança"
-            ],
-            "currently_learning": [
-                "Java",
-                "Cyber Security",
-                "Arquitetura de sistemas",
-                "Agentes de IA"
-            ],
-            "interests": [
-                "Tecnologia",
-                "Computação",
-                "Hacking",
-                "Rock",
-                "Natureza",
-                "Games"
-            ]
-        }
+<p align="center">
+  Desenvolvedor Back-End apaixonado por tecnologia, automação, IA e segurança.
+</p>
 
-        self.skills = {
-            "languages": ["Python", "JavaScript", "HTML", "CSS", "Java"],
-            "frameworks": ["Django", "Flask"],
-            "tools": ["Git", "GitHub", "APIs", "Automação", "OpenAI", "Google Cloud"],
-            "knowledge": [
-                "CRUDs e sistemas web",
-                "Automação de e-mails",
-                "Upload de arquivos para cloud",
-                "Leitura e processamento de documentos",
-                "Bots e assistentes virtuais",
-                "Transcrição e diarização com IA"
-            ]
-        }
+---
 
-        self.projects = [
-            "Automação para leitura de e-mails, download de anexos e upload no Google Storage",
-            "Assistentes virtuais com GPT",
-            "Transcrição de áudio para texto com IA",
-            "Landing pages e sistemas com foco em automação e produtividade"
-        ]
+## 🚀 Sobre mim
 
-        self.goals = [
-            "Evoluir como especialista em Back-End",
-            "Aprofundar conhecimentos em Cybersegurança",
-            "Criar soluções inteligentes com IA",
-            "Desenvolver projetos escaláveis e úteis"
-        ]
+Sou um desenvolvedor **Back-End** com foco em **Python, Django, automação de processos e integrações com APIs**.  
+Gosto de criar soluções que resolvem problemas reais, economizam tempo e tornam rotinas mais inteligentes.
 
-    def introduce(self):
-        print("Olá, eu sou Luiz Fernando Ribeiro")
-        print("Back-End Developer apaixonado por tecnologia, automação e construção de soluções inteligentes.\n")
+Atualmente, tenho interesse especial em:
 
-        print("Sobre mim:")
-        for key, value in self.about_me.items():
-            print(f"- {key}: {value}")
+- Desenvolvimento Back-End
+- Automação de tarefas
+- Inteligência Artificial
+- Cybersegurança
+- Arquitetura de sistemas
+- Ferramentas e soluções para produtividade
 
-        print("\nSkills:")
-        for category, items in self.skills.items():
-            print(f"- {category}: {', '.join(items)}")
+---
 
-        print("\nProjetos:")
-        for project in self.projects:
-            print(f"- {project}")
+## 🛠️ Tecnologias e Ferramentas
 
-        print("\nObjetivos:")
-        for goal in self.goals:
-            print(f"- {goal}")
+<div align="center">
 
-        print("\nVamos construir algo incrível.")
+![Python](https://img.shields.io/badge/Python-111?style=for-the-badge&logo=python)
+![Django](https://img.shields.io/badge/Django-111?style=for-the-badge&logo=django)
+![JavaScript](https://img.shields.io/badge/JavaScript-111?style=for-the-badge&logo=javascript)
+![HTML5](https://img.shields.io/badge/HTML5-111?style=for-the-badge&logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-111?style=for-the-badge&logo=css3)
+![Flask](https://img.shields.io/badge/Flask-111?style=for-the-badge&logo=flask)
+![Git](https://img.shields.io/badge/Git-111?style=for-the-badge&logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-111?style=for-the-badge&logo=github)
+![OpenAI](https://img.shields.io/badge/OpenAI-111?style=for-the-badge&logo=openai)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-111?style=for-the-badge&logo=googlecloud)
 
-if __name__ == "__main__":
-    profile = LuizFernandoRibeiro()
-    profile.introduce()
+</div>
+
+---
+
+## 💼 O que eu faço
+
+- Desenvolvimento de aplicações e soluções **Back-End**
+- Criação de **automações** para reduzir trabalho manual
+- Integração de sistemas com **APIs**
+- Manipulação de arquivos, documentos e fluxos automatizados
+- Construção de bots e assistentes com **IA**
+- Processamento de dados e otimização de rotinas
+
+---
+
+## 📌 Experiências e Projetos
+
+Alguns tipos de projetos que representam bem meu perfil:
+
+- Automação para leitura de e-mails, download de anexos e upload para Google Storage
+- Assistentes virtuais utilizando modelos de IA
+- Transcrição de áudio para texto com inteligência artificial
+- Diarização e processamento de voz
+- Sistemas voltados para automação, produtividade e integração entre serviços
+
+---
+
+## 📚 Atualmente estudando
+
+- Java
+- Cyber Security
+- Arquitetura de Software
+- Agentes de IA
+- Técnicas mais avançadas de desenvolvimento Back-End
+
+---
+
+## 🎯 Objetivos
+
+Meu objetivo é evoluir continuamente como desenvolvedor, aprofundando meus conhecimentos em:
+
+- Back-End de alto nível
+- Segurança da informação
+- Soluções inteligentes com IA
+- Sistemas escaláveis e bem estruturados
+
+---
+
+## 🎵 Fora do código
+
+Quando não estou programando, gosto de:
+
+- Ouvir **Rock**
+- Jogar no computador
+- Explorar tecnologia e computação
+- Curtir a natureza e sair um pouco da tela
+
+---
+
+## 📈 GitHub Stats
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SEU_USUARIO&show_icons=true&theme=tokyonight&hide_border=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO&layout=compact&theme=tokyonight&hide_border=true)
+
+</div>
+
+---
+
+## 🌐 Contato
+
+<p align="left">
+  <a href="https://github.com/SEU_USUARIO" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Perfil-111?style=for-the-badge&logo=github">
+  </a>
+  <!-- Você pode adicionar LinkedIn, Portfólio ou Email aqui -->
+</p>
+
+---
+
+<p align="center">
+  💻 Sempre aprendendo, construindo e evoluindo.
+</p>
